@@ -48,23 +48,23 @@ its Objects layer.
 
 Basic usage of the List-inline object uses the required classes:
 
-    <ul class="list-inline">
+    <ul class="o-list-inline">
         <li>Foo</li>
         <li>Bar</li>
         <li>Baz</li>
     </ul>
 
-The only valid children of the `.list-inline` node are `li`s.
+The only valid children of the `.o-list-inline` node are `li`s.
 
 ## Options
 
 Other, optional classes can supplement the required base classes:
 
-* `.list-inline--delimited`: add a character to delimit list items.
+* `.o-list-inline--delimited`: add a character to delimit list items.
 
 For example:
 
-    <ul class="list-inline  list-inline--delimited">
+    <ul class="o-list-inline  o-list-inline--delimited">
         <li>Foo</li>
         <li>Bar</li>
         <li>Baz</li>
@@ -73,7 +73,7 @@ For example:
 If you wish to completely remove the whitespace between items, omit the closing
 `</li>` tag:
 
-    <ul class="list-inline">
+    <ul class="o-list-inline">
         <li>Foo
         <li>Bar
         <li>Baz
