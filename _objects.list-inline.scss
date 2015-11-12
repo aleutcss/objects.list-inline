@@ -7,11 +7,10 @@
  */
 
 // Predefine the variables below in order to alter and enable specific features.
-$inuit-enable-list-inline--delimited:   false !default;
-$inuit-list-inline-delimit-character:   ",\00A0" !default;
+$o-list-inline--delimited:   false !default;
+$o-list-inline-delimit-character:   ",\00A0" !default;
 
-.o-list-inline,
-%o-list-inline {
+.o-list-inline {
     margin:  0;
     padding: 0;
     list-style: none;
@@ -26,7 +25,7 @@ $inuit-list-inline-delimit-character:   ",\00A0" !default;
 
 
 
-@if ($inuit-enable-list-inline--delimited == true) {
+@if ($o-list-inline--delimited == true) {
 
     /**
      * Comma delimited list to semantically mark up lists of tags, etc.
@@ -41,7 +40,7 @@ $inuit-list-inline-delimit-character:   ",\00A0" !default;
         > li + li {
 
             &:before {
-                content: "#{$inuit-list-inline-delimit-character}";
+                content: "#{$o-list-inline-delimit-character}";
             }
 
         }
