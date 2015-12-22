@@ -26,7 +26,7 @@ module via a Git Submodule, or copy and paste.
 
 Once installed, `@import` into your project in its Objects layer:
 
-    @import "bower_components/inuit-list-inline/objects.list-inline";
+    @import "node_modules/inuit-list-inline/objects.list-inline";
 
 ### Install as a Git Submodule
 
