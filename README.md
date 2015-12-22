@@ -4,9 +4,9 @@ The List-inline object simply displays a list as one horizontal row.
 
 ## Dependencies
 
-inuitcss’ List-inline object depends on one other inuitcss module:
+aleutcss’ List-inline object depends on one other aleutcss module:
 
-* [settings.defaults](https://github.com/inuitcss/settings.defaults)
+* [settings.defaults](https://github.com/aleutcss/settings.defaults)
 
 If you install the List-inline object using Bower, you will get these dependencies at
 the same time. If not using Bower, please be sure to install and `@import` these
@@ -32,7 +32,7 @@ Once installed, `@import` into your project in its Objects layer:
 
 ### Install as a Git Submodule
 
-    $ git submodule add git@github.com:inuitcss/objects.list-inline.git
+    $ git submodule add git@github.com:aleutcss/objects.list-inline.git
 
 Once installed, `@import` into your project in its Objects layer:
 
