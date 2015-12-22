@@ -8,22 +8,20 @@ aleutcss’ List-inline object depends on one other aleutcss module:
 
 * [settings.defaults](https://github.com/aleutcss/settings.defaults)
 
-If you install the List-inline object using Bower, you will get these dependencies at
-the same time. If not using Bower, please be sure to install and `@import` these
+If you install the List-inline object using NPM, you will get these dependencies at
+the same time. If not using NPM, please be sure to install and `@import` these
 dependencies in the relevant way.
 
 ## Installation
 
-The recommended installation method is Bower, but you can install the List-inline
+The recommended installation method is NPM, but you can install the List-inline
 module via a Git Submodule, or copy and paste.
 
-### Install using Bower:
-
-    $ bower install --save inuit-list-inline
+### 
 
 ### Install using npm:
 
-    $ npm install --save inuit-list-inline
+    $ npm install --save-dev aleut-list-inline
 
 
 Once installed, `@import` into your project in its Objects layer:
