@@ -5,7 +5,8 @@ The List-inline object simply displays a list as one horizontal row.
 ## Install using npm:
 
 ```ssh
-$ npm install --save-dev @aleut/objects.list-inline
+$ npm install --save-dev aleut.objects.list-inline
+
 ```
 
 ## Usage
